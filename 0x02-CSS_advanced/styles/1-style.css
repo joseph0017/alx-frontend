@@ -1,0 +1,5 @@
+/* css module for psuedo elements and classes */
+
+html {
+    scroll-behavior: smooth;
+}
