@@ -420,7 +420,7 @@
     --header-logo-link-left: 0;
 }
 
-* {
+*, *:after, *:before {
     box-sizing: border-box;
 }
 

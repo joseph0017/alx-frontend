@@ -423,7 +423,7 @@
     --transition-cubic-bezier: cubic-bezier(0.17, 0.67, 0, 1.01);
 }
 
-* {
+*, *:after, *:before {
     box-sizing: border-box;
 }
 
