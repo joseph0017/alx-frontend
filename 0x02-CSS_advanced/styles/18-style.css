@@ -395,7 +395,7 @@
     --nav-item-font-family: var(--font-family-title);
     --nav-item-font-weight: var(--font-weight-bold);
     --nav-item-font-size: var(--font-size-medium);
-    --nav-item-letter-spacing: 0.04;
+    --nav-item-letter-spacing: 0.04rem;
     --nav-item-display: inline-block;
     --nav-item-margin: 0 0 3rem 0;
     --nav-item-link-hover: var(--color-primary);
@@ -486,7 +486,7 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: var(--font-weight-bold);
 }
 
-footer {
+.footer {
     padding: var(--footer-padding);
 }
 
@@ -495,8 +495,8 @@ footer {
 }
 
 .nav {
-    margin: 0, 0;
-    padding: 0, 0;
+    margin: 0;
+    padding: 0;
     list-style-type: none;
     text-align: center;
 }
@@ -514,6 +514,7 @@ footer {
     display: block;
     padding: 0.5rem 1rem;
 }
+
 .nav .nav-link:hover {
     color: var(--nav-item-link-hover);
 }
