@@ -401,7 +401,7 @@
     --nav-item-link-hover: var(--color-primary);
 }
 
-*, *:after, *:before {
+* {
     box-sizing: border-box;
 }
 
@@ -472,8 +472,9 @@ a:active {
 }
 
 .container {
-    max-width: 960px;
-    margin: 0 auto;
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .card-category {
