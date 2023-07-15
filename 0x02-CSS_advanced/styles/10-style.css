@@ -54,7 +54,7 @@ a {
 }
 
 .section-tagline {
-    color: var(--color-primary);
+    text-align: var(--section-header-align);
 }
 
 .card-category {
