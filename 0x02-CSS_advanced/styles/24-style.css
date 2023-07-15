@@ -571,12 +571,12 @@ ul.row {
     display: block;
 }
 
-.social-link svg {
+.social-link > svg {
     fill: var(--text-color);
 }
 
 .card-services .card-title {
-    margin: 0 0;
+    margin: 0;
 }
 
 .card-services a {
@@ -588,5 +588,5 @@ ul.row {
 .card-services a:hover {
     color: var(--color-white);
     background-color: var(--color-primary);
-    list-style-type: none;
+    text-decoration: none;
 }
