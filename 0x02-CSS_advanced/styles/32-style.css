@@ -646,7 +646,7 @@ ul.row {
 .card-services a:hover {
     color: var(--color-white);
     background-color: var(--color-primary);
-    list-style-type: none;
+    text-decoration: none;
 }
 
 .card-testimonial {
