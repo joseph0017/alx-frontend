@@ -287,6 +287,12 @@
     background-color: var(--color-primary);
     width: 100%;
   }
+
+  @media screen and (max-width: 767px) {
+    .navbar-menu {
+      display: none;
+    }
+  }
   
   /* Header
       ============================= */
@@ -302,12 +308,6 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-  }
-
-  @media screen and (max-width: 767px) {
-    .navbar-menu {
-      display: none;
-    }
   }
   
   /* Footer
